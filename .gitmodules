@@ -10,3 +10,4 @@
 [submodule "Bybit"]
 	path = Bybit
 	url = https://github.com/GhostKiller127/Bybit.git
+	branch = main
