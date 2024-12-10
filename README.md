@@ -47,3 +47,10 @@ For detailed technical information, performance metrics, and visualizations, ple
 - [S4](https://arxiv.org/pdf/2111.00396) - Original Structured State Space sequence model
 
 For a complete list of references and their influence on this project, please visit the [WandB Report](url-placeholder).
+
+
+## License & Copyright
+© Ali Keysan 2024. All rights reserved.
+
+This code repository is shared publicly for demonstration purposes only. 
+No license is granted to use, copy, modify, or distribute this software for any purpose.
