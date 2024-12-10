@@ -1,13 +1,17 @@
 [submodule "Reinforcement-Learning"]
 	path = Reinforcement-Learning
 	url = https://github.com/GhostKiller127/Reinforcement-Learning.git
+	branch = main
 [submodule "S5"]
 	path = S5
 	url = https://github.com/GhostKiller127/S5.git
+	branch = mine
 [submodule "S5_pendulum"]
 	path = S5_pendulum
 	url = https://github.com/GhostKiller127/S5_pendulum.git
 [submodule "Bybit"]
 	path = Bybit
 	url = https://github.com/GhostKiller127/Bybit.git
+	branch = main
+[submodule "Reinforcement Learning"]
 	branch = main
