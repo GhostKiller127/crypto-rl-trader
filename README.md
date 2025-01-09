@@ -1,33 +1,39 @@
 # AI Crypto Trading Algorithm
-
 A reinforcement learning-based cryptocurrency trading algorithm implemented in JAX, capable of performing both long and short trades on Bybit futures.
 
 
 ## Overview
-
 This project implements a distributed off-policy reinforcement learning algorithm with a meta learner, inspired by the [GDI paper](https://arxiv.org/pdf/2206.03192). It utilizes the memory-efficient state space model [S5](https://arxiv.org/pdf/2208.04933) and operates on 15-minute intervals.
 
 
-## Key Features
+## Technical Implementation
 
+### Current Architecture
 - Distributed off-policy reinforcement learning
 - Custom crypto trading environment (similar to OpenAI Gym)
 - Memory-efficient state space model (S5)
 - JAX implementation for efficient execution
 - Supports both long and short positions on Bybit futures
 
+### Development Roadmap
+1. Price Prediction Enhancement
+   - State-of-the-art time series forecasting
+   - Multi-head prediction architecture
+   - Uncertainty estimation
+
+2. Advanced Search Strategies
+   - Hybrid RL architecture
+   - Model-based planning
+   - Dynamic search optimization
+
+For detailed technical information, performance metrics, development plans, and visualizations, please visit the [WandB Report](https://api.wandb.ai/links/ghostkiller2070/dfrptapm).
+
 
 ## Project Structure
-
 - `Reinforcement Learning/`: Main RL implementation
 - `Bybit/`: Trading interface
 - `S5/`: State space model architecture
 - `S5_pendulum/`: Testing environment
-
-
-## Technical Details
-
-For detailed technical information, performance metrics, and visualizations, please visit the [WandB Report](url-placeholder).
 
 
 ## References
@@ -46,7 +52,7 @@ For detailed technical information, performance metrics, and visualizations, ple
 - [S4D](https://arxiv.org/pdf/2206.11893) - Diagonal simplification of S4
 - [S4](https://arxiv.org/pdf/2111.00396) - Original Structured State Space sequence model
 
-For a complete list of references and their influence on this project, please visit the [WandB Report](url-placeholder).
+For a complete list of references and their influence on this project, please visit the [WandB Report](https://api.wandb.ai/links/ghostkiller2070/dfrptapm).
 
 
 ## License & Copyright
