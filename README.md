@@ -14,17 +14,26 @@ This project implements a distributed off-policy reinforcement learning algorith
 - Memory-efficient state space model (S5)
 - JAX implementation for efficient execution
 - Supports both long and short positions on Bybit futures
+- Currently optimized for single GPU execution (NVIDIA GTX 1070)
 
 ### Development Roadmap
-1. Price Prediction Enhancement
+1. Computational Scaling
+   - Large-scale model deployment
+   - Enhanced data processing pipeline
+   - Minute-level granularity integration
+   - Comprehensive feature engineering
+
+2. Price Prediction Enhancement
    - State-of-the-art time series forecasting
    - Multi-head prediction architecture
    - Uncertainty estimation
 
-2. Advanced Search Strategies
+3. Advanced Search Strategies
    - Hybrid RL architecture
    - Model-based planning
    - Dynamic search optimization
+
+The current implementation serves as a proof-of-concept, demonstrating the viability of the core architecture while operating under computational constraints. Future development focuses on significant scaling of both model capacity and data processing capabilities.
 
 For detailed technical information, performance metrics, development plans, and visualizations, please visit the [WandB Report](https://api.wandb.ai/links/ghostkiller2070/dfrptapm).
 
@@ -45,7 +54,6 @@ For detailed technical information, performance metrics, development plans, and 
 - [MEME: Human-level Atari 200x faster](https://arxiv.org/pdf/2209.07550) - Deepmind
 - [Agent57: Outperforming the Atari Human Benchmark](https://arxiv.org/pdf/2003.13350) - Deepmind
 - [R2D2: Recurrent Experience Replay in Distributed Reinforcement Learning](https://openreview.net/pdf?id=r1lyTjAqYX) - Deepmind
-
 
 ### State Space Models (SSM)
 - [S5](https://arxiv.org/pdf/2208.04933) - Multi-input multi-output architecture (MIMO)
